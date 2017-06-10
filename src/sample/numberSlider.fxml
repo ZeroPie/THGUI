@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane minWidth="300.0" prefHeight="350.0" prefWidth="450.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <children>
+        <VBox        id="VBox"        layoutX="14.0" layoutY="17.0"  spacing="5.0"    alignment="CENTER" />
+        <ListView fx:id="myListView"  layoutX="90.0" layoutY="80.0"  prefHeight="36.0" prefWidth="253.0" />
+        <Slider   fx:id="mySlider"    layoutX="90.0" layoutY="182.0" max="9.0"         prefHeight="12.0" prefWidth="253.0" blockIncrement="1.0" />
+    </children>
+</AnchorPane>
